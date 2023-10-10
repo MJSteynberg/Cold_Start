@@ -1,0 +1,15 @@
+Cold_Warm_Figure.py:
+-Produces the normal cold start versus warm start plot as well as the scatter plot.
+-The normal plots are produced and then it is asked if you would like to continue with the scatter plot. Check if you are satisfied with the prediction before continuing with the scatter plot.
+-The results should be reproducible. I used between one and three runs tp make sure lobe flipping doesn't happen.
+
+Error_Start_Figures:
+-Produces the wrong cold start figures.
+-This should look fine on every run.
+
+Plotting:
+-Just an example of how you would produce the scatter plot and wrong cold start plots. You can do the cold versus warm start plot as well, but it is also included in the Cold_Warm_Figure.py 
+ program since it is needed before you attempt to produce the scatter plot data.
+-For the scatter plot data, every 1000 points has a different initial condition (100 steps apart). I created each with a different color to show that different regions of the 
+ phase space will have different error responses.
+-I did not play around with colors much, I leave that to you.
